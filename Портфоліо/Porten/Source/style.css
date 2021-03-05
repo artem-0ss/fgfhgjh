@@ -1,0 +1,878 @@
+/*Main*/
+body{
+    font-family: 'BebasNeueBold';
+    font-style: normal;
+    font-weight: 500;
+}
+.wrapper{
+	display: flex;
+	justify-content: center;
+	height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'PT Sans';
+}
+p{
+    font-size: 16px;
+    font-family: 'PT Sans';
+    line-height: 16px;
+}
+/*header*/
+header{
+    width: 100%;
+    height: 767px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+/*contact*/
+.contact{
+    width: 80%;
+    height: 32px;
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top: 0px;
+    background-color: #000000;
+    padding: 0px 10%;
+}
+.contact p{
+    position: absolute;
+    top: -5px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: #969696;
+}
+
+[src="img/ic_sharp-log-in.png"]{
+    position: absolute;
+    top: 8px;
+    left: 79%;
+}
+[src="img/eva_phone-outline.png"]{
+    position: absolute;
+    top: 6px;
+}
+.contact a{
+    position: relative;
+    font-size: 12px;
+    color: #969696;
+    left: 88%;
+    top: 5px;
+}
+.contact a:hover{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: solid;
+}
+/*nav*/
+nav{
+    position: absolute;
+    z-index: 2;
+    width: 80%;
+    height: 77px;
+    left: 0px;
+    top: 32px;
+    background: #0F0F0F;
+    padding: 0px 10%;
+}
+nav h1{
+    position: absolute;
+    font-family: 'OnO';
+    font-size: 36px;
+    top: -10px;
+    color: #FFFFFF;
+}
+nav a{
+    top: 20px;
+    position: relative;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;   
+    color: #969696;
+    left: 45%;
+    padding: 31px 40px;
+    transition: 300ms ease-out 0s;
+}
+nav a:hover{
+    background: #1F1F1F;
+    color: #fff;
+}
+nav img{
+    position: relative;
+    top: 25px;
+    margin-left: 20px;
+    left: 44%;
+}
+/*main*/
+main{
+    width: 80%;
+    height: 667px;
+    position: absolute;
+    left: 0px;
+    top: 107px;
+    background-image: url(img/Rectangle\ 3.png);
+    background-size: cover;
+    padding: 0px 10%;
+}
+.main__text{
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    left: 42%;
+    top: 100px;
+    padding-top: 30px;
+}
+main h1{
+    font-size: 46px;
+    text-align: center;
+    color: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    width: 188px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+.main__text p{
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.main_P{
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    top: 400px;
+    left: 25%;
+}
+/*content*/
+.content{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 774px;
+}
+.content h1{
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.content p{
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.content a{
+    font-family: 'PT Sans';
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 20px 40px;
+    border: 1px solid #fff;
+    transition: 300ms ease-out 0s;
+}
+.content a:hover{
+    background-color: #FFFFFF;
+    color: #000;
+}
+/*season20T21*/
+.season20T21{
+    position: absolute;
+    width: 50%;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+.season20T21 hr{
+    width: 120px;
+    position: absolute;
+    top: 80px;
+    left: 43%;
+}
+.season20T21 p{
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+[src="img/62050 1.png"]{
+    border: 25px #191B1C solid;
+    border-top: 55px #191B1C solid;
+    border-bottom: 55px #191B1C solid;
+    width: 150px;
+    background: #191B1C;
+    height: 150px;
+    transition: 200ms ease 0s;
+}
+[src="img/62050 1.png"]:hover{
+    transform: scale(1.1);
+}
+.season20T21__img_1{
+    position: absolute;
+    left: 10%;
+    top: 150px;
+}
+.season20T21__img_2{
+    position: absolute;
+    left: 40%;
+    top: 150px;
+}
+.season20T21__img_3{
+    position: absolute;
+    left: 70%;
+    top: 150px;
+}
+/*newcollect*/
+.newcollect{
+    position: absolute;
+    width: 50%;
+    height: 600px;
+    left: 50%;
+    top: 0px;
+    background-image: url(img/Rectangle\ 8.png);
+    background-size: cover;
+}
+.newcollect hr{
+    width: 140px;
+    position: absolute;
+    top: 380px;
+    left: 45%;
+}
+.newcollect h1{
+    position: absolute;
+    top: 300px;
+    left: 30%
+}
+.newcollect a{
+    position: absolute;
+    top: 420px;
+    left: 43%;
+}
+.img__content{
+    width: 40%;
+    height: 600px;
+    position: absolute;
+    left: 0px;
+    top: 600px;
+    background-image: url(img/Rectangle\ 9.png);
+    background-size: cover;
+}
+.colection2018{
+    position: absolute;
+    width: 60%;
+    height: 600px;
+    left: 40%;
+    top: 600px;
+    background: #000000;
+}
+.colection2018 h1{
+    padding-bottom: 25px;
+    position: absolute;
+    top: 100px;
+    left: 35%;
+}
+.colection2018 p{
+    padding-bottom: 25px;
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 28%;
+}
+.colection2018 hr{
+    width: 120px;
+    position: absolute;
+    top: 180px;
+    left: 45%;
+}
+.colection2018 a{
+    position: absolute;
+    top: 450px;
+    left: 33%;
+}
+.newpostup{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    left: 0px;
+    top: 1200px;
+    background: #000000;
+}
+.newpostup__img_1{
+    position: absolute;
+    top: 200px;
+    left: 20%;
+}
+.newpostup__img_2{
+    position: absolute;
+    top: 200px;
+    left: 37%;
+}
+.newpostup__img_3{
+    position: absolute;
+    top: 200px;
+    left: 54%;
+}
+.newpostup__img_4{
+    position: absolute;
+    top: 200px;
+    left: 70%;
+}
+.newpostup__img_5{
+    position: absolute;
+    top: 600px;
+    left: 20%;
+}
+.newpostup__img_6{
+    position: absolute;
+    top: 600px;
+    left: 37%;
+}
+.newpostup__img_7{
+    position: absolute;
+    top: 600px;
+    left: 54%;
+}
+.newpostup__img_8{
+    position: absolute;
+    top: 600px;
+    left: 70%;
+}
+.newpostup hr{
+    width: 150px;
+    position: absolute;
+    top: 160px;
+    left: 47%;
+}
+.newpostup h1{
+    position: absolute;
+    top: 80px;
+    left: 38%;
+}
+.ourbrends{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    left: 0px;
+    top: 1000px;
+    background: #0F0F0F;
+}
+.ourbrends h1{
+    position: absolute;
+    left: 43%;
+}
+.ourbrends img{
+    position: relative;
+    top: 180px;
+    left: 5%;
+    margin: 0px 50px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0px;
+    top: 3300px;
+}
+footer h1{
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+footer p{
+    font-family: 'PT Sans';
+    font-size: 13px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.about{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    left: 0px;
+    top: 0px;
+    background-image: url(img/Rectangle\ 15.png);
+    background-size: cover;
+}
+.magaz h1{
+    position: absolute;
+    top: 50px;
+    left: 10%;
+}
+.magaz p{
+    position: absolute;
+    top: 100px;
+    left: 10%;
+}
+.kategories{
+    position: absolute;
+    top: 50px;
+    left: 35%;
+    width: 400px;
+}
+.kategories a{
+    font-family: 'PT Sans';
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    transition: 300ms ease-out 0s;
+    background-color: #0F0F0F;
+}
+.kategories a:hover{
+    background-color: #000;
+}
+.kategories_1{
+    position: absolute;
+    top: 70px;
+    left: 0%;
+}
+.kategories_2{
+    position: absolute;
+    top: 70px;
+    left: 30%;
+}
+.kategories_3{
+    position: absolute;
+    top: 70px;
+    left: 70%;
+}
+.kategories_4{
+    position: absolute;
+    top: 150px;
+    left: 0%;
+}
+.kategories_5{
+    position: absolute;
+    top: 150px;
+    left: 60%;
+}
+.rozzul{
+    position: absolute;
+    top: 50px;
+    left: 65%;
+    width: 400px;
+}
+.rozzul form{
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+input{
+    background:rgba(255, 255, 255, 0.4);
+    width: 210px;
+    height: 31px;
+}
+form a{
+    position: absolute;
+    top: 139px;
+    left: 54.5%;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0F0F0F;
+    transition-delay: 250ms;
+    transition: ease-in-out;
+}
+form a:hover{
+    background-color: #1F1F1F;
+}
+
+.form-input::placeholder {
+    color: #969696;
+    transition: opacity .1s linear;
+} 
+.form-input:focus::placeholder {
+    opacity: 0;
+}
+.footer__text{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: #0F0F0F;
+    left: 0px;
+    top: 350px;
+}
+.text__1{
+    margin-left: 10%;
+}
+.text__2{
+    margin-left: 80%;
+    margin-top: -35px;
+    text-decoration: underline;
+}
+@media screen and (min-device-width: 2300px) and (max-width: 2560px){
+    p{
+        font-size: 34px;
+    }
+    /*header*/
+    header{
+        height: 1600px;
+    }
+    /*contact*/
+    .contact{
+        height: 52px;
+    }
+    .contact p{
+        font-size: 20px;
+    }
+    [src="img/ic_sharp-log-in.png"]{
+        width: 20px;
+        top: 14px;
+    }
+    [src="img/eva_phone-outline.png"]{
+        width: 20px;
+        top: 14px;
+    }
+    .contact a{
+        font-size: 20px;
+        top: 14px;
+    }
+    /*nav*/
+    nav{
+        height: 100px;
+        top: 52px;
+    }
+    nav h1{
+        top: 0px;
+    }
+    nav a{
+        font-size: 20px;
+        top: 32px;
+        left: 51%;
+        padding: 38px 60px;
+    }
+    nav img{
+        top: 38px;
+        width: 28px;
+        margin-left: 20px;
+        left: 50%;
+    }
+    /*main*/
+    main{
+        width: 80%;
+        height: 1467px;
+        top: 137px;
+    }
+    .main__text{
+        border: 6px solid #FFFFFF;
+        width: 450px;
+        height: 450px;
+        left: 42%;
+        top: 400px;
+        padding-top: 50px;
+    }
+    main h1{
+        font-size: 80px;
+        width: 188px;
+        margin-left: 40px;
+        padding-bottom: 20px;
+    }
+    .main__text p{
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .main_P{
+        font-size: 20px;
+        line-height: 150%;
+        top: 900px;
+        left: 32%;
+    }
+    /*content*/
+    .content{
+        top: 1600px;
+    }
+    .content h1{
+        font-size: 46px;
+    }
+    .content p{
+        font-size: 20px;
+    }
+    .content a{
+        font-size: 22px;
+        padding: 25px 45px;
+    }
+    /*season20T21*/
+    .season20T21{
+        height: 800px;
+    }
+    .season20T21 h1{
+        margin-top: 80px;
+    }
+    .season20T21 hr{
+        border: 1px solid #fff;
+        width: 180px;
+        top: 150px;
+        left: 43%;
+    }
+    .season20T21 p{
+        font-size: 24px;
+    }
+    [src="img/62050 1.png"]{
+        border: 25px #191B1C solid;
+        border-top: 55px #191B1C solid;
+        border-bottom: 55px #191B1C solid;
+        width: 250px;
+        height: 250px
+    }
+    .season20T21__img_1{
+        top: 200px;
+    }
+    .season20T21__img_2{
+        top: 200px;
+    }
+    .season20T21__img_3{
+        top: 200px;
+    }
+    /*newcollect*/
+    .newcollect{
+        height: 800px;
+    }
+    .newcollect hr{
+        width: 180px;
+        top: 480px;
+        left: 43%;
+    }
+    .newcollect h1{
+        top: 400px;
+        left: 32%
+    }
+    .newcollect a{
+        top: 520px;
+        left: 42%;
+    }
+    .img__content{
+        height: 800px;
+        top: 800px;
+    }
+    .colection2018{
+        height: 800px;
+        top: 800px;
+    }
+    .colection2018 h1{
+        padding-bottom: 50px;
+        top: 150px;
+        left: 35%;
+    }
+    .colection2018 p{
+        top: 250px;
+        left: 28%;
+    }
+    .colection2018 hr{
+        width: 180px;
+        top: 240px;
+        left: 42%;
+    }
+    .colection2018 a{
+        top: 550px;
+        left: 35%;
+    }
+    .newpostup{
+        height: 1500px;
+        top: 1500px;
+    }
+    .newpostup hr{
+        width: 180px;
+        top: 180px;
+    }
+    .newpostup h1{
+        position: absolute;
+        top: 80px;
+        left: 38%;
+    }
+    .newpostup__img_1{
+        top: 250px;
+    }
+    .newpostup__img_2{
+        top: 250px;
+    }
+    .newpostup__img_3{
+        top: 250px;
+    }
+    .newpostup__img_4{
+        top: 250px;
+    }
+    .newpostup__img_5{
+        top: 800px;
+    }
+    .newpostup__img_6{
+        top: 800px;
+    }
+    .newpostup__img_7{
+        top: 800px;
+    }
+    .newpostup__img_8{
+        top: 800px;
+    }
+    .ourbrends{
+        top: 1500px;
+    }
+    .ourbrends h1{
+        left: 45%;
+    }
+    .ourbrends img{
+        top: 180px;
+        left: 5%;
+        margin: 0px 50px;
+        width: 18%;
+    }
+    footer{
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        left: 0px;
+        top: 5300px;
+    }
+    footer h1{
+        font-family: 'Playfair Display';
+        font-size: 22px;
+        line-height: 30px;
+        font-weight: lighter;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    footer p{
+        font-family: 'PT Sans';
+        font-size: 13px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    .about{
+        position: absolute;
+        width: 100%;
+        height: 350px;
+        left: 0px;
+        top: 0px;
+        background-image: url(img/Rectangle\ 15.png);
+        background-size: cover;
+    }
+    .magaz h1{
+        position: absolute;
+        top: 50px;
+        left: 10%;
+    }
+    .magaz p{
+        position: absolute;
+        top: 100px;
+        left: 10%;
+    }
+    .kategories{
+        position: absolute;
+        top: 50px;
+        left: 35%;
+        width: 400px;
+    }
+    .kategories a{
+        font-family: 'PT Sans';
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        transition: 300ms ease-out 0s;
+        background-color: #0F0F0F;
+    }
+    .kategories a:hover{
+        background-color: #000;
+    }
+    .kategories_1{
+        position: absolute;
+        top: 70px;
+        left: 0%;
+    }
+    .kategories_2{
+        position: absolute;
+        top: 70px;
+        left: 30%;
+    }
+    .kategories_3{
+        position: absolute;
+        top: 70px;
+        left: 70%;
+    }
+    .kategories_4{
+        position: absolute;
+        top: 150px;
+        left: 0%;
+    }
+    .kategories_5{
+        position: absolute;
+        top: 150px;
+        left: 60%;
+    }
+    .rozzul{
+        position: absolute;
+        top: 50px;
+        left: 65%;
+        width: 400px;
+    }
+    .rozzul form{
+        box-sizing: border-box;
+        margin-top: 40px;
+    }
+    input{
+        background:rgba(255, 255, 255, 0.4);
+        width: 210px;
+        height: 31px;
+    }
+    form a{
+        position: absolute;
+        top: 139px;
+        left: 54.5%;
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #0F0F0F;
+        transition-delay: 250ms;
+        transition: ease-in-out;
+    }
+    form a:hover{
+        background-color: #1F1F1F;
+    }
+
+    .form-input::placeholder {
+        color: #969696;
+        transition: opacity .1s linear;
+    } 
+    .form-input:focus::placeholder {
+        opacity: 0;
+    }
+    .footer__text{
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        background-color: #0F0F0F;
+        left: 0px;
+        top: 350px;
+    }
+    .text__1{
+        margin-left: 10%;
+    }
+    .text__2{
+        margin-left: 80%;
+        margin-top: -35px;
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,599 @@
+/*Main*/
+body{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+}
+.wrapper{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	height: auto;
+}
+a{
+    text-decoration: none;
+	color: #fff;
+	text-align: center;
+	background-color: #4985FF;
+	padding: 10px 30px;
+	border-radius: 20px ;
+}
+a:hover{
+	background-color: #000;
+}
+p{
+	font-size: 14px;
+	line-height: 25px;
+}
+/*Header*/
+header{
+	background: url(img/Rectangle.png), 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	height: 767px;
+}
+nav{
+	position: absolute;
+	right: 10%;
+	height: 40px;
+	justify-content: end;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.774);
+}
+nav a{
+	color: #fff;
+	padding: 20px 40px;
+	font-weight: 500;
+	border-radius: 0%;
+	font-size: 12px;
+	background-color: rgba(255, 255, 255, 0);
+}
+nav a:hover{
+	border-bottom: 1.5px solid #fff;
+	background-color: rgba(255, 255, 255, 0);
+	font-weight: 600;
+}
+main{
+	position: absolute;
+	right: 35%;
+	left: 35%;
+	top: 250px;
+	text-align: center;
+}
+main p{
+	color: #fff;
+	font-size: 12px;
+	line-height: 20px;
+}
+main h1{
+	color: #fff;
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 40px;
+}
+/*Content*/
+/*wedevmob*/
+.wedevmob{
+	position: absolute;
+	top: 767px;
+	left: 300px;
+	height: 700px;
+	text-align: center;
+	background: #fff;
+}
+.wedevmob p{
+	color: #999999;
+}
+.wedevmob h1{
+	color: #323232;
+	padding-top: 100px;
+}
+.wedevmob a{
+	position: absolute;
+	top: 550px;
+	left: 40%;
+}
+/*rozrob*/
+.rozrob{
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 1467px;
+	height: 767px;
+	text-align: center;
+	background: #F6F6F8;
+}
+.rozrobtext{
+	top: 120px;
+	position: absolute;
+	text-align: left;
+	width: 30%;
+	left: 10%;
+	padding-bottom: 200px;
+	border-bottom: 1px solid #E0E0E0;
+}
+.rozrobtext a{
+	text-decoration: underline;
+	color: #4985FF;
+	background-color: rgba(255, 255, 255, 0);
+}
+.rozrobtext p{
+	color: #999999;
+}
+.rozrobtext img{
+	top: 0px;
+	position: absolute;
+	left: 160%;
+}
+[src="img/about_us__numbers.png"]{
+	position: relative;
+	margin-left: 80px;
+	margin-top: 620px;
+}
+/*Ourworks*/
+.ourworks{
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 2237px;
+	height: 450px;
+	text-align: center;
+	background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+}
+.ourworkstext{
+	top: 80px;
+	width: 90%;
+	position: absolute;
+	text-align: left;
+	left: 10%;
+}
+.ourworkstext h1{
+	color: #fff;
+}
+.ourworkstext a{
+	position: absolute;
+	right: 10%;
+	top: 40px;
+}
+.ourworksarticle{
+	top: 450px;
+	width: 90%;
+	height: 450px;
+	position: absolute;
+	text-align: left;
+	left: 10%;
+	background-color: #fff;	
+	border-bottom: 1px solid #E0E0E0;
+}
+article{
+	width: 350px;
+	height: 500px;
+	position: absolute;
+	margin-top: -220px;
+}
+article h1{	
+	font-size: 16px;
+	line-height: 22px;
+}
+article .number{
+	color: #4985FF;
+}
+article p{
+	color: #999999;
+}
+article img{
+	width: 320px;
+	height: 290px;
+	border-radius: 10px;
+}
+article a{
+	text-decoration: underline;
+	color: #4985FF;
+	background-color: rgba(255, 255, 255, 0);
+}
+.article_1{
+	width: 350px;
+	height: 500px;
+	position: absolute;
+	left: 500px;
+	margin-top: -220px;
+}
+.article_2{
+	width: 350px;
+	height: 500px;
+	position: absolute;
+	right: 8%;
+	margin-top: -220px;
+}
+/*ourproject*/
+.ourproject{
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	padding-top: 100px;
+	top: 3137px;
+	height: 680px;
+	text-align: center;
+	background: #F6F6F8;
+}
+.ourproject p{
+	color: #999999;
+}
+.ourproject img{
+	margin-left: 30px;
+	margin-top: 70px;
+}
+.ourproject a{
+	position: absolute;
+	top: 650px;
+	left: 45%;
+}
+/*video*/
+.video{
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	padding-top: 100px;
+	top: 3917px;
+	height: 400px;
+	text-align: center;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(file:///D:/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D1%96%D0%BE/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D1%85%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D1%96%D0%B9/Source/img/Rectangle.png);
+}
+.video h1{
+	color: #fff;
+}
+.video p{
+	color: #fff;
+}
+/*rozzul*/
+.rozzul{
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	padding-top: 100px;
+	top: 4317px;
+	height: 700px;
+	text-align: center;
+}
+.video a{
+	position: absolute;
+	top: 400px;
+	height: 60px;
+	left: 41%;
+	z-index: 2;
+	background-color: rgba(255, 255, 255, 0);
+	border: 1px solid #fff;
+	width: 220px;
+}
+.video a:hover{
+	background-color: #4985FF;
+}
+.video a img{
+	position: absolute;
+	left: 30px;
+}
+.video a p{
+	position: absolute;
+	right: 50px;
+}
+.rozzul h3{	
+	margin-top: 400px;
+}
+.rozzul p{
+	color: #999999;
+}
+.rozzul form{
+	width: 489px;
+	height: 37px;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F2;
+	box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+	border-radius: 30px;
+	margin-left: 34%;
+	margin-bottom: 50px;
+}
+.rozzul form a{
+	position: absolute;
+	top: 580px;
+	left: 857px;
+	border-radius: 0px 30px 30px 0px;
+}
+.rozzul input{
+	height: 32px;
+	width: 310px;
+	border: none;
+	position: absolute;
+	top: 581px;
+	left: 540px;
+	border-radius: 30px 0px 0px 30px;
+}
+/*footer*/
+footer{
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	padding-top: 50px;
+	top: 5117px;
+	height: 500px;
+	text-align: left;
+	background-color: #F6F6F8;
+}
+footer p{
+	color: #999999;
+}
+.info{
+	position: absolute;
+	left: 10%;
+	padding-bottom: 150px;
+	border-bottom: 1px solid #E0E0E0;
+}
+.info img{
+	position: absolute;
+	margin-top: 5px;
+
+}
+.info p{
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.mainlinks{
+	position: absolute;
+	margin-left: 350px;
+	top: 0px;
+	width: 200px;
+}
+.otherproj{
+	position: absolute;
+	margin-left: 700px;
+	top: 0px;
+	width: 200px;
+}
+.solmedia{
+	position: absolute;
+	margin-left: 1050px;
+	top: 0px;
+	width: 200px;
+}
+.link p{
+	position: absolute;
+	bottom: 30px;
+	left:45%;
+}
+@media screen and (min-device-width: 2300px) and (max-device-width: 2560px){
+	p{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	a{
+		padding: 20px 60px;
+		border-radius: 30px;
+	}
+	nav{
+		right: 20%;
+		height: 50px;
+	}
+	nav a{
+		padding: 28px 40px;
+		font-size: 18px;
+	}
+	main p{
+		font-size: 16px;
+	}
+	.wedevmob{
+		left: 720px;
+	}
+	.article_1{
+		width: 350px;
+		height: 500px;
+		position: absolute;
+		left: 900px;
+		margin-top: -220px;
+	}
+	.video a{
+		left: 43%;
+		z-index: 2;
+		background-color: rgba(255, 255, 255, 0);
+		border: 1px solid #fff;
+		width: 220px;
+	}
+	.rozzul form{
+		width: 650px;
+		height: 60px;
+		background: #FFFFFF;
+		border: 1px solid #F2F2F2;
+		box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+		border-radius: 30px;
+		margin-left: 37%;
+		margin-bottom: 50px;
+	}
+	.rozzul form a{
+		top: 587px;
+		left: 1367px;
+		border-radius: 0px 30px 30px 0px;
+	}
+	.rozzul input{
+		height: 52px;
+		width: 400px;
+		top: 587px;
+		left: 960px;
+	}
+	.mainlinks{
+		margin-left: 700px;
+	}
+	.otherproj{
+		margin-left: 1350px;
+	}
+	.solmedia{
+		margin-left: 1850px;
+	}
+}
+@media screen and (min-device-width: 950px) and (max-device-width: 1024px){
+	p{
+		font-size: 12px;
+		line-height: 18px;
+	}
+	a{
+		padding: 10px 20px;
+	}
+	nav{
+		height: 50px;
+	}
+	nav a{
+		padding: 28px 40px;
+		font-size: 15px;
+	}
+	main p{
+		font-size: 16px;
+	}
+	.wedevmob{
+		left: -30px;
+	}
+	.wedevmob a{
+		top: 600px;
+		left: 45%;
+	}
+	.rozrobtext img{
+		left: 120%;
+	}
+	article{
+		width: 280px;
+		left: -80px;
+	}
+	.article_1{
+		width: 280px;
+		left: 250px;
+	}
+	.article_2{
+		width: 280px;
+		left: 580px;
+	}
+	.video a{
+		left: 37%;
+		z-index: 2;
+		background-color: rgba(255, 255, 255, 0);
+		border: 1px solid #fff;
+		width: 220px;
+	}
+	.mainlinks{
+		margin-left: 600px;
+	}
+	.otherproj{
+		margin-left: 0px;
+		top: 300px;
+	}
+	.solmedia{
+		margin-left: 600px;
+		top: 300px;
+	}
+	.ourproject{
+		top: 3137px;
+		height: 910px;
+	}
+	.video{
+		top: 4147px;
+	}
+	.ourproject a{
+		top: 900px;
+		left: 45%;
+	}
+	.rozzul{
+		top: 4517px;
+		height: 500px;
+	}
+	footer{
+		top: 5417px;
+		height: 750px;
+	}
+	.rozzul form{
+		width: 560px;
+		height: 35px;
+		margin-left: 23%;
+	}
+	.rozzul form a{
+		top: 571px;
+		left: 645px;
+	}
+	.rozzul input{
+		height: 32px;
+		width: 390px;
+		top: 575px;
+		left: 250px;
+	}
+}
+@media screen and (min-device-width: 1700px) and (max-device-width: 1920px){
+	p{
+		font-size: 16px;
+		line-height: 25px;
+	}
+	a{
+		padding: 20px 40px;
+		border-radius: 30px;
+	}
+	nav{
+		height: 50px;
+	}
+	.wedevmob{
+		left: 400px;
+	}
+	.wedevmob a{
+		top: 600px;
+		left: 45%;
+	}
+	.rozrobtext img{
+		left: 120%;
+	}
+	article{
+		width: 280px;
+		left: 0px;
+	}
+	.article_1{
+		width: 280px;
+		left: 35%;
+	}
+	.article_2{
+		width: 280px;
+		left: 70%;
+	}
+	.mainlinks{
+		margin-left: 450px;
+	}
+	.otherproj{
+		margin-left: 900px;
+	}
+	.solmedia{
+		margin-left: 1350px;
+	}
+	.ourproject{
+		top: 3137px;
+		height: 910px;
+	}
+	.video{
+		top: 4147px;
+	}
+	.ourproject a{
+		top: 900px;
+		left: 45%;
+	}
+	.rozzul{
+		top: 4517px;
+		height: 500px;
+	}
+	footer{
+		top: 5417px;
+	}
+	.rozzul form{
+		width: 560px;
+		height: 55px;
+		margin-left: 35%;
+	}
+	.rozzul form a{
+		top: 580px;
+		left: 58%;
+	}
+	.rozzul input{
+		height: 50px;
+		width: 390px;
+		top: 585px;
+		left: 36%;
+	}
+}

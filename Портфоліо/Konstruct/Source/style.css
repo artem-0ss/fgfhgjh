@@ -1,0 +1,675 @@
+/*Main*/
+body{
+    font-family: 'BebasNeueBold';
+    font-style: normal;
+    font-weight: 500;
+}
+.wrapper{
+	display: flex;
+	justify-content: center;
+	height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+}
+/*header*/
+header{
+    width: 100%;
+    height: 767px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-image: url(img/bg.png);
+    background-size: cover;
+}
+[src="img/projeco-logo.png"]{
+    position: absolute;
+    top: 20px;
+    left: 47%;
+}
+header h1{
+    position: absolute;
+    font-size: 60px;
+    line-height: 70px;
+    left: 22%;
+    top: 250px;
+    text-align: center;
+    letter-spacing: 5.70937px;
+    color: #FFFFFF;
+}
+header p{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 350px;
+    left: 38%;
+}
+header a{
+    letter-spacing: 3.7px;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-size: 11px;
+    line-height: 15px;
+    position: absolute;
+    top: 700px;
+    left: 46.5%;
+}
+/*content*/
+.content{
+    width: 80%;
+    height: auto;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 767px; 
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+nav{
+    position: absolute;
+    width: 80%;
+    height: 30px;
+    padding: 0px 100px;
+}
+nav a{
+    font-size: 16px;
+    letter-spacing: 1.09091px;
+    color: #48555B;
+    transition-delay: 200ms;
+    padding: 10px 30px;
+    position: relative;
+    left: 450px;
+}
+nav a:hover{
+    color: #00A4E5;
+}
+/*ourstory*/
+.ourstory{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    top: 50px; 
+    padding: 50px 0px;
+}
+.ourstory h3{
+    position: absolute;
+    left: 47%;
+    text-align: center;
+}
+.ourstory h4{
+    position: absolute;
+    top: 120px;
+    left: 8%;
+    text-align: left;
+}
+.ourstory h4 span{
+    color: #00A4E5;
+}
+.ourstory p{
+    position: absolute;
+    font-weight: 300;
+    top: 240px;
+    left: 8%;
+    text-align: left; 
+}
+.img{
+    position: absolute;
+    right: 0%;
+    top: 150px;
+}
+/*ourcapabilities*/
+.ourcapabilities{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    padding: 50px 0px;
+    left: 8%;
+    top: 450px; 
+}
+.ourcapabilities h3{
+    position: absolute;
+    top: 50px;
+}
+.ourcapabilities p{
+    position: absolute;
+    left: 350px;
+    font-weight: 300;
+}
+.ourcapabilities a{
+    position: absolute;
+    top: 65px;
+    left: 950px;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #00A4E5;
+    transition-delay: 250ms;
+    transition: ease-in-out;
+}
+.ourcapabilities a:hover{
+    background-color: slategrey;
+}
+.ourcapabilities img{
+    margin: 150px 30px;
+}
+.getintouch{
+    position: absolute;
+    width: 132.5%;
+    height: 600px;
+    top: 1050px; 
+    left: -20%;
+    background-image: url(img/bg1.png);
+    background-size: cover;
+}
+.getintouch h2{
+    position: absolute;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    font-weight: bold;
+    top: 130px;
+    left: 44%;
+    text-align: center;
+}
+.getintouch a{
+    position: absolute;
+    top: 300px;
+    left: 48%;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #00A4E5;
+    transition-delay: 250ms;
+    transition: ease-in-out;
+}
+.getintouch a:hover{
+    background-color: slategrey;
+}
+/*newsletters*/
+.newsletters{
+    position: absolute;
+    width: 132.5%;
+    height: 100px;
+    top: 1647px; 
+    left: -20%;
+    background-color: #171819;
+}
+.newsletters h2{
+    position: absolute;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    font-weight: bold;
+    top: 10px;
+    left: 26%;
+    color: #fff;
+}
+form{
+    position: absolute;
+    top: 30px;
+    left: 60%; 
+    box-sizing: border-box;
+}
+input{
+    background: #FFFFFF;
+    width: 250px;
+    height: 40px;
+}
+form a{
+    position: absolute;
+    top: 1px;
+    left: 99.9%;
+    padding: 11.25px 40px;
+    color: #fff;
+    background-color: #00A4E5;
+    transition-delay: 250ms;
+    transition: ease-in-out;
+}
+form a:hover{
+        background-color: slategrey;
+}
+/*footer*/
+footer{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 2510px; 
+    left: 0px;
+    background-color: #171819; 
+}
+.info{
+    position: absolute;
+    width: 100%;
+    height: 220px;
+    top: 0px; 
+    padding-top: 30px;
+    left: 0px;
+    background-color: #141A20;
+}
+footer h6{
+    font-family: 'Open Sans';
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+}
+footer p{
+    font-family: 'Open Sans';
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    color: #fff;
+}
+footer a{
+    font-family: 'Open Sans';
+    color: #fff;
+}
+.company{
+    position: absolute;
+    left: 10%;
+}
+.company [src="img/projeco-logo.png"]{
+    position: absolute;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    top: 20px;
+    left: 0px;
+}
+.links{
+    position: absolute;
+    left: 500px;
+}
+.links__1{
+    width: 100px;
+}
+.links__1 a{
+    padding-bottom: 30px;
+}
+.link__2{
+    margin-top: -100px;
+    padding-left: 180px;
+    width: 50px;
+}
+.link__3{
+    margin-top: -65px;
+    padding-left: 320px;
+    width: 50px;
+}
+.contactus{
+    position: absolute;
+    left: 1000px;
+}
+.icons{
+    position: absolute;
+    top: 100px;
+    left: 1150px;
+}
+[src="img/socials.png"]{
+    height: 17px;
+}
+.footer__text{
+    position: absolute;
+    left: 36%;
+    top: 250px;
+}
+.footer__text p{
+    font-size: 14px;
+    line-height: 15px;
+}
+@media screen and (min-device-width: 2300px) and (max-width: 2560px){
+    h3{
+        font-size: 35px;
+    }
+    h4{
+        font-size: 28px;
+    }
+    p{
+        font-size: 25px;
+    }
+    /*header*/
+    header{
+        height: 1600px;
+    }
+    [src="img/projeco-logo.png"]{
+        width: 200px;
+    }
+    header h1{
+        font-size: 100px;
+        top: 550px;
+    }
+    header p{
+        font-size: 26px;
+        top: 700px;
+    }
+    header a{
+        font-size: 20px;
+        top: 1500px;
+        left: 47%;
+    }
+    /*content*/
+    .content{
+        top: 1600px; 
+    }
+    nav{
+        width: 80%;
+        height: 70px;
+        padding: 0px 100px;
+    }
+    nav a{
+        font-size: 26px;
+        transition-delay: 200ms;
+        padding: 20px 60px;
+        left: 750px;
+    }
+    /*ourstory*/
+    .ourstory{
+        height: 600px;
+    }
+    .ourstory p{
+        top: 320px;
+    }
+    .img{
+        top: 150px;
+    }
+    .ourstory img{
+        height: 350px;
+    }
+    /*ourcapabilities*/
+    .ourcapabilities{
+        height: 600px;
+        top: 600px; 
+    }
+    .ourcapabilities p{
+        left: 450px;
+    }
+    .ourcapabilities a{
+        top: 85px;
+        left: 1600px;
+        padding: 20px 80px;
+    }
+    .ourcapabilities img{
+        margin: 150px 60px;
+        width: 470px;
+    }
+    .getintouch{
+        height: 800px;
+        top: 1400px; 
+    }
+    .getintouch h2{
+        font-size: 40px;
+        top: 130px;
+        left: 47%;
+    }
+    .getintouch a{
+        left: 49%;
+        padding: 20px 80px;
+    }
+    /*newsletters*/
+    .newsletters{
+        height: 150px;
+        top: 2147px; 
+    }
+    .newsletters h2{
+        font-size: 40px;
+        top: 10px;
+        left: 36%;
+    }
+    form{
+        left: 55%; 
+    }
+    input{
+        width: 500px;
+        height: 50px;
+    }
+    form a{
+        padding: 17px 80px;
+    }
+    /*footer*/
+    footer{
+        height: 680px;
+        top: 3890px; 
+        left: 0px;
+    }
+    .info{
+        height: 500px;
+        padding-top: 80px;
+    }
+    footer h6{
+        font-size: 24px;
+    }
+    footer p{
+        font-size: 20px;
+    }
+    footer a{
+        font-size: 24px;
+    }
+    .company{
+        position: absolute;
+        left: 10%;
+    }
+    .company [src="img/projeco-logo.png"]{
+        margin-top: 45px;
+        margin-bottom: 45px;
+        top: 40px;
+        left: 0px;
+    }
+    .links{
+        position: absolute;
+        left: 800px;
+    }
+    .links__1{
+        width: 150px;
+    }
+    .link__2{
+        margin-top: -165px;
+        padding-left: 250px;
+    }
+    .link__3{
+        margin-top: -100px;
+        padding-left: 500px;
+    }
+    .contactus{
+        left: 1600px;
+    }
+    .icons{
+        position: absolute;
+        top: 200px;
+        left: 1900px;
+    }
+    [src="img/socials.png"]{
+        height: 22px;
+    }
+    .footer__text{
+        left: 36%;
+        top: 590px;
+    }
+    .footer__text p{
+        font-size: 24px;
+    }
+}
+@media screen and (min-device-width: 1920px) and (max-width: 2299px){
+    h3{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    p{
+        font-size: 20px;
+    }
+    /*header*/
+    header{
+        height: 1080px;
+    }
+    [src="img/projeco-logo.png"]{
+        width: 180px;
+    }
+    header h1{
+        font-size: 70px;
+        top: 450px;
+    }
+    header p{
+        font-size: 25px;
+        top: 600px;
+    }
+    header a{
+        font-size: 18px;
+        top: 1000px;
+        left: 47%;
+    }
+    /*content*/
+    .content{
+        top: 1080px; 
+    }
+    nav{
+        width: 80%;
+        height: 50px;
+        padding: 0px 60px;
+    }
+    nav a{
+        font-size: 24px;
+        padding: 15px 40px;
+        left: 550px;
+    }
+    /*ourstory*/
+    .ourstory{
+        height: 600px;
+    }
+    .ourstory p{
+        top: 320px;
+    }
+    .img{
+        top: 150px;
+    }
+    .ourstory img{
+        height: 350px;
+    }
+    /*ourcapabilities*/
+    .ourcapabilities{
+        height: 600px;
+        top: 600px; 
+    }
+    .ourcapabilities p{
+        left: 400px;
+    }
+    .ourcapabilities a{
+        top: 85px;
+        left: 1200px;
+        padding: 15px 60px;
+    }
+    .ourcapabilities img{
+        margin: 150px 40px;
+        width: 380px;
+    }
+    .getintouch{
+        height: 800px;
+        top: 1400px; 
+    }
+    .getintouch h2{
+        font-size: 36px;
+        top: 130px;
+        left: 47%;
+    }
+    .getintouch a{
+        left: 49%;
+        padding: 20px 80px;
+    }
+    /*newsletters*/
+    .newsletters{
+        height: 120px;
+        top: 2147px; 
+    }
+    .newsletters h2{
+        font-size: 36px;
+        top: 10px;
+        left: 30%;
+    }
+    form{
+        left: 55%; 
+    }
+    input{
+        width: 380px;
+        height: 40px;
+    }
+    form a{
+        padding: 12px 50px;
+    }
+    /*footer*/
+    footer{
+        height: 580px;
+        top: 3345px; 
+    }
+    .info{
+        height: 420px;
+        padding-top: 80px;
+    }
+    footer h6{
+        font-size: 18px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+    footer a{
+        font-size: 18px;
+    }
+    .company{
+        left: 10%;
+    }
+    .company [src="img/projeco-logo.png"]{
+        margin-top: 35px;
+        margin-bottom: 35px;
+        top: 30px;
+    }
+    .links{
+        left: 650px;
+    }
+    .links__1{
+        width: 112px;
+    }
+    .link__2{
+        margin-top: -110px;
+        padding-left: 220px;
+    }
+    .link__3{
+        margin-top: -70px;
+        padding-left: 430px;
+    }
+    .contactus{
+        left: 1300px;
+    }
+    .icons{
+        top: 180px;
+        left: 1500px;
+    }
+    [src="img/socials.png"]{
+        height: 22px;
+    }
+    .footer__text{
+        left: 37%;
+        top: 510px;
+    }
+    .footer__text p{
+        font-size: 16px;
+    }
+}
+@media screen and (min-device-width: 1440px) and (max-width: 1919px){
+}

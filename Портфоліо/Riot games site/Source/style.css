@@ -1,0 +1,393 @@
+/*Main*/
+body{
+    font-family: 'Druk Wide';
+    font-style: normal;
+    font-weight: 500;
+}
+.wrapper{
+	display: flex;
+	justify-content: center;
+	height: auto;
+    position: absolute;
+    top: 30px;
+    left: 130px;
+    border-radius: 20px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+p{
+    color: #fff;
+    position: absolute;
+    font-weight: 600;
+    top: 70px;
+    left: 10px;
+}
+/*background*/
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #000;
+}
+.img__back_1{
+    position: absolute;
+    width: 900px;
+    left: -100px; 
+    top: -350px;
+}
+.img__back_2{
+    position: absolute;
+    width: 30px;
+    left: 1%; 
+    top: 70%;
+}
+.img__back_3{
+    width: 250px;
+    position: absolute;
+    left: 2%; 
+    top: 86%;
+    border-radius: 0px 0px 0px 0px;
+}
+.img__back_4{
+    position: absolute;
+    width: 600px;
+    left: 983px; 
+    top: 278px;
+}
+.img__back_5{
+    position: absolute;
+    width: 30px;
+    left: 1550px; 
+    top: 50px;
+}
+.img__back_6{
+    width: 200px;
+    position: absolute;
+    left: 1350px; 
+    top: 70px;
+}
+.img__back_7{
+    position: absolute;
+    width: 30px;
+    left: 1350px; 
+    top: 0px;
+}
+.img__back_8{
+    position: absolute;
+    width: 40px;
+    left: 20px; 
+    top: 40px;
+}
+/*header*/
+header{
+    width: 1300px;
+    background: #1F2326;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+[src="img/riot games.png"]{
+    border-right: 2px solid #fff;
+    padding-right: 20px;
+}
+[src="img/logo.png"]{
+    padding-left: 20px;
+}
+nav a{
+    padding: 0px 20px;
+    font-size: 12px;
+}
+nav a:hover{
+    font-weight: 600;
+}
+.a__avto{
+    font-size: 12px;
+    padding: 0px 20px; 
+}
+[src="img/icon.png"]{
+    margin-left: 70px;
+    padding-top: 10px;
+}
+/*content*/
+.content{
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    background: url(img/background.png);
+    background-color: #FF4656;
+    top: 90px;
+}
+.content img{
+    height: 400px;
+    top: 20px;
+    cursor: pointer;
+}
+[src="img/AGENTS.png"]{
+    width: 60px;
+    height: 350px;
+    position: absolute;
+    left: 150px
+}
+[src="img/Phoenix.png"]{
+    position: absolute;
+    left: 250px;
+}
+[src="img/Jett.png"]{
+    position: absolute;
+    left: 570px;
+}
+[src="img/Sova.png"]{
+    position: absolute;
+    left: 880px;
+}
+[src="img/Sage - click on.png"]{
+    position: absolute;
+    left: 1180px;
+}
+/*footer*/
+footer{
+    background: #F8F8F8;
+    border-radius: 0px 0px 32px 32px;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 640px;
+}
+footer img{
+    width: 400px;
+    cursor: pointer;
+    top: -80px;
+}
+[src="img/Basic.png"]{
+    position: absolute;
+    left: -70px;
+}
+[src="img/Signature.png"]{
+    position: absolute;
+    left: 350px;
+}
+[src="img/Ultimate.png"]{
+    position: absolute;
+    left: 780px;
+}
+[src="img/Next Hero.png"]{
+    position: absolute;
+    left: 1200px;
+    width: 120px;
+}
+@media screen and (min-device-width: 1920px) and (max-device-width: 2000px){
+    .wrapper{
+        top: 120px;
+        left: 150px;
+    }
+    p{
+        top: 45px;
+        left: 140px;
+        font-size: 16px;
+    }
+    .img__back_1{
+        width: 1100px;
+    }
+    .img__back_2{
+        width: 40px;
+        left: 10px; 
+        top: 840px;
+    }
+    .img__back_3{
+        width: 450px;
+        left: 50px; 
+        top: 880px;
+    }
+    .img__back_4{
+        width: 800px;
+        left: 1120px; 
+        top: 391px;
+    }
+    .img__back_5{
+        width: 40px;
+        left: 1850px; 
+    }
+    .img__back_6{
+        width: 300px;
+        left: 1550px; 
+    }
+    .img__back_7{
+        width: 40px;
+        left: 1450px; 
+        top: 30px;
+    }
+    .img__back_8{
+        width: 70px;
+        left: 30px; 
+        top: 40px;
+    } 
+     /*header*/
+    header{
+        width: 1600px;
+    }
+    nav a{
+        font-size: 16px;
+    }
+    .a__avto{
+        font-size: 16px;
+        padding: 0px 20px; 
+    }
+    [src="img/icon.png"]{
+        margin-left: 150px;
+    }
+    /*content*/
+    .content{
+        height: 650px;
+    }
+    .content img{
+        height: 500px;
+    }
+    [src="img/AGENTS.png"]{
+        width: 80px;
+        height: 450px;
+    }
+    [src="img/Phoenix.png"]{
+        left: 250px;
+    }
+    [src="img/Jett.png"]{
+        left: 650px;
+    }
+    [src="img/Sova.png"]{
+        left: 1070px;
+    }
+    [src="img/Sage - click on.png"]{
+        left: 1470px;
+    }
+    /*footer*/
+    footer{
+        top: 740px;
+    }
+    footer img{
+        width: 450px;
+    }
+    [src="img/Basic.png"]{
+        left: -70px;
+    }
+    [src="img/Signature.png"]{
+        position: absolute;
+        left: 400px;
+    }
+    [src="img/Ultimate.png"]{
+        position: absolute;
+        left: 880px;
+    }
+    [src="img/Next Hero.png"]{
+        left: 1380px;
+        width: 135px;
+    }
+}
+@media screen and (min-device-width: 2421px) and (max-device-width: 2560px){
+    .wrapper{
+        top: 120px;
+        left: 250px;
+    }
+    p{
+        top: 45px;
+        left: 140px;
+        font-size: 20px;
+    }
+    .img__back_1{
+        width: 1100px;
+    }
+    .img__back_2{
+        width: 40px;
+        left: 10px; 
+        top: 840px;
+    }
+    .img__back_3{
+        width: 450px;
+        left: 50px; 
+        top: 880px;
+    }
+    .img__back_4{
+        width: 800px;
+        left: 2120px; 
+        top: 391px;
+    }
+    .img__back_5{
+        width: 40px;
+        left: 2450px; 
+    }
+    .img__back_6{
+        width: 300px;
+        left: 2150px; 
+    }
+    .img__back_7{
+        width: 40px;
+        left: 2050px; 
+        top: 30px;
+    }
+    .img__back_8{
+        width: 70px;
+        left: 30px; 
+        top: 40px;
+    } 
+     /*header*/
+    header{
+        width: 2000px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    .a__avto{
+        font-size: 20px;
+        padding: 0px 20px; 
+    }
+    [src="img/icon.png"]{
+        margin-left: 350px;
+    }
+    /*content*/
+    .content{
+        height: 650px;
+    }
+    .content img{
+        height: 500px;
+    }
+    [src="img/AGENTS.png"]{
+        width: 80px;
+        height: 450px;
+    }
+    [src="img/Phoenix.png"]{
+        left: 250px;
+    }
+    [src="img/Jett.png"]{
+        left: 650px;
+    }
+    [src="img/Sova.png"]{
+        left: 1070px;
+    }
+    [src="img/Sage - click on.png"]{
+        left: 1470px;
+    }
+    /*footer*/
+    footer{
+        top: 740px;
+    }
+    footer img{
+        width: 450px;
+    }
+    [src="img/Basic.png"]{
+        left: -70px;
+    }
+    [src="img/Signature.png"]{
+        position: absolute;
+        left: 400px;
+    }
+    [src="img/Ultimate.png"]{
+        position: absolute;
+        left: 880px;
+    }
+    [src="img/Next Hero.png"]{
+        left: 1380px;
+        width: 135px;
+    }
+}
